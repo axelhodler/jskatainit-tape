@@ -4,3 +4,7 @@ Provides a skeleton for doing katas in JS - using [tape](https://github.com/subs
 Run tests once
 
     npm test
+
+Rerun tests automatically on changes
+
+    npm run test-watch
