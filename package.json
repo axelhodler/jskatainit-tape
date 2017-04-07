@@ -2,7 +2,7 @@
   "name": "jskatainit-tape",
   "version": "1.0.0",
   "scripts": {
-    "test": "node src/test.js | node_modules/.bin/tap-spec",
+    "test": "./node_modules/.bin/tape src/*test.js | node_modules/.bin/tap-spec",
     "test-watch": "./node_modules/tape-watch/bin/tape-watch src/test.js -p tap-spec",
     "install": "npm rebuild"
   },
